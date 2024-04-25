@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Títulos HTML</title>
+</head>
+<body>
+    <h1>Encabezado de Nivel 1 (h1)</h1>
+    <h2>Encabezado de Nivel 2 (h2)</h2>
+    <h3>Encabezado de Nivel 3 (h3)</h3>
+    <h4>Encabezado de Nivel 4 (h4)</h4>
+    <h5>Encabezado de Nivel 5 (h5)</h5>
+    <h6>Encabezado de Nivel 6 (h6)</h6>
+</body>
+</html>
+Estos son los elementos de encabezado que se utilizan para definir los diferentes niveles de títulos en una página web. 
+Cada número indica un nivel diferente de importancia y jerarquía, donde <h1> es el más importante y <h6> es el menos importante.
+<h1>: Se utiliza para el título principal de la página.
+<h2>: Se utiliza para los subtítulos de nivel 2.
+<h3>: Para subtítulos de nivel 3.
+<h4>: Para subtítulos de nivel 4.
+<h5>: Para subtítulos de nivel 5.
+<h6>: Para subtítulos de nivel 6.
