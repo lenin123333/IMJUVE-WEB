@@ -1,0 +1,18 @@
+En el contexto de un proyecto web, generalmente se organiza en una estructura de carpetas para mantener ordenados los diferentes tipos de archivos, 
+como HTML, CSS, JavaScript, imágenes, audio, video, etc. La estructura de carpetas típica puede verse así:
+proyecto/
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
+│
+├── img/
+│   └── imagen.jpg
+│
+├── audio/
+│   └── audio.mp3
+│
+└── video/
+    └── video.mp4
