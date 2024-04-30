@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Formulario HTML</title>
+</head>
+<body>
+    <!-- Formulario -->
+    <form action="/submit" method="post">
+        <!-- Campo de texto -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+        <br><br>
+        
+        <!-- Campo de correo electrónico -->
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+        <br><br>
+        
+        <!-- Campo de contraseña -->
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña" required>
+        <br><br>
+        
+        <!-- Casilla de verificación -->
+        <input type="checkbox" id="suscripcion" name="suscripcion">
+        <label for="suscripcion">Deseo suscribirme al boletín informativo</label>
+        <br><br>
+        
+        <!-- Botones de radio -->
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <br><br>
+        
+        <!-- Menú desplegable -->
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad" name="ciudad">
+            <option value="madrid">Madrid</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="valencia">Valencia</option>
+            <option value="sevilla">Sevilla</option>
+        </select>
+        <br><br>
+        
+        <!-- Área de texto -->
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí"></textarea>
+        <br><br>
+        
+        <!-- Botón de envío -->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+ <!-- Botón de envío 
+En este ejemplo, además de los elementos anteriores, hemos agregado:
+
+<input type="checkbox">: Crea una casilla de verificación que el usuario puede marcar o desmarcar. Se usa para opciones que pueden ser seleccionadas independientemente.
+<input type="radio">: Crea botones de opción que permiten al usuario seleccionar una opción de un conjunto. Se utilizan cuando solo se permite una opción seleccionada de varias.
+<select> y <option>: Crea un menú desplegable que permite al usuario seleccionar una opción de una lista. La etiqueta <select> define la lista desplegable, y <option> define las opciones dentro de la lista.
+<textarea>: Crea un área de texto de múltiples líneas donde el usuario puede escribir texto. Se usa para entradas de texto más largas, como comentarios o mensajes.
+-->
