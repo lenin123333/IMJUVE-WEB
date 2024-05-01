@@ -1,0 +1,39 @@
+
+### Ejercicio 1: Creación de una página de inicio simple
+
+Crea una página de inicio simple que incluya lo siguiente:
+
+- Un encabezado con el título de la página.
+- Una barra de navegación con al menos tres enlaces a diferentes secciones de la página.
+- Un contenido principal que incluya al menos dos secciones distintas, cada una con un título y un párrafo de texto.
+- Un pie de página con información de contacto.
+
+### Ejercicio 2: Creación de un formulario de registro
+
+Crea un formulario de registro que incluya lo siguiente:
+
+- Un encabezado que diga "Registro de Usuario".
+- Campos para que el usuario ingrese su nombre, dirección de correo electrónico, contraseña y fecha de nacimiento.
+- Un botón de envío para enviar el formulario.
+- Utiliza etiquetas `<label>` para asociar cada campo con su descripción.
+- Utiliza diferentes tipos de entrada como `text`, `email`, `password` y `date`.
+
+### Ejercicio 3: Creación de una galería de imágenes
+
+Crea una galería de imágenes que incluya lo siguiente:
+
+- Un encabezado que diga "Galería de Imágenes".
+- Utiliza etiquetas `<img>` para mostrar al menos cinco imágenes diferentes.
+- Utiliza la atribución `alt` en cada imagen para proporcionar una descripción.
+- Agrupa las imágenes utilizando elementos `<div>` para crear secciones dentro de la galería.
+
+### Ejercicio 4: Creación de una página de perfil de usuario
+
+Crea una página de perfil de usuario que incluya lo siguiente:
+
+- Un encabezado con el nombre del usuario.
+- Una barra de navegación horizontal con enlaces a diferentes secciones del perfil (por ejemplo, "Información", "Fotos", "Amigos").
+- Utiliza elementos `<article>` para representar diferentes secciones del perfil, como la información personal, las fotos y la lista de amigos.
+- Agrega imágenes de perfil y de portada.
+- Utiliza clases y IDs para aplicar estilos y seleccionar elementos con CSS o JavaScript.
+
