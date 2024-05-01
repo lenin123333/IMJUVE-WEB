@@ -1,0 +1,27 @@
+/* Estilos para el contenedor */
+.contenedor {
+    display: flex;
+    justify-content: space-around; /* Espacio equitativo entre elementos */
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para los elementos */
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+/* 
+En este ejemplo:
+
+Tenemos un contenedor con tres elementos dentro.
+Aplicamos Flexbox al contenedor y configuramos justify-content: space-around;, lo que distribuye el 
+espacio sobrante alrededor de los elementos, creando un espacio equitativo entre ellos.
+Los elementos tienen un ancho y una altura fijos, así como un color de fondo y texto definidos.
+Con align-items: center;, los elementos se alinean verticalmente en el centro del contenedor.
+*/
