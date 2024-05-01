@@ -1,0 +1,27 @@
+/* Estilos para todas las etiquetas h1 */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Estilos para todas las etiquetas nav */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilos para todas las etiquetas section */
+section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para todas las etiquetas footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
