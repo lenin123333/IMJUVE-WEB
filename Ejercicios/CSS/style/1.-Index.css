@@ -1,0 +1,50 @@
+/* Estilos para el encabezado */
+#encabezado {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+.barra-navegacion {
+    background-color: #444;
+    padding: 10px;
+}
+
+.barra-navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.barra-navegacion ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+#seccion1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#seccion2 {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+.pie-pagina {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
