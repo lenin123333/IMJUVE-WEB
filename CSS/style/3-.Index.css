@@ -1,0 +1,20 @@
+/* Estilos para el contenedor */
+.contenedor {
+    display: flex; /* Utiliza Flexbox para el posicionamiento */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 300px; /* Altura del contenedor */
+    background-color: #f0f0f0; /* Color de fondo del contenedor */
+}
+
+/* Estilos para los elementos dentro del contenedor */
+.item {
+    width: 100px; /* Ancho de los elementos */
+    height: 100px; /* Altura de los elementos */
+    background-color: #333; /* Color de fondo de los elementos */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    line-height: 100px; /* Altura de línea para centrar verticalmente */
+    margin: 10px; /* Margen entre elementos */
+}
+
