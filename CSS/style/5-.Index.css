@@ -1,0 +1,23 @@
+/* Estilos para el contenedor */
+.contenedor {
+    display: flex;
+    justify-content: space-between; /* Espacio equitativo entre elementos */
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilos para la columna izquierda */
+.columna-izquierda {
+    flex-basis: 70%; /* Anchura relativa */
+    background-color: #ddd;
+    padding: 10px;
+}
+
+/* Estilos para la columna derecha */
+.columna-derecha {
+    flex-basis: 25%; /* Anchura relativa */
+    background-color: #ccc;
+    padding: 10px;
+}
