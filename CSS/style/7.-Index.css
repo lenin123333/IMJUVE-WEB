@@ -58,3 +58,14 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* 
+En este ejemplo:
+
+Creamos un encabezado con un logo y una barra de navegación horizontal utilizando Flexbox para 
+alinearlos horizontalmente.
+El contenido principal está dividido en dos secciones: una barra lateral y un área de contenido 
+principal, ambos utilizando Flexbox para su distribución.
+En la barra lateral, creamos un menú con enlaces utilizando una lista no ordenada.
+El área de contenido principal contiene dos secciones con información sobre la página.
+El pie de página está centrado horizontalmente y contiene información de derechos de autor.
+*/
