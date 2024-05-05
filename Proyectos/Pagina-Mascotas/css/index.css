@@ -1,0 +1,233 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #f3f4f6;
+    padding: 20px 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contenedor-secundario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contenedor-titulo a {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.contenedor-titulo a svg {
+    margin-right: 5px;
+}
+
+.contenedor-titulo p {
+    margin: 0;
+}
+
+.contenedor-menu a {
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 3px;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+.contenedor-menu a:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+/* Estilos de secciones */
+main {
+    padding: 50px;
+}
+
+.contenedor-bienvenida {
+    
+    background-image: url('../img/mascotas.jpg'); /* Ruta relativa a la imagen */
+    background-size: contain; /* Ajusta el tamaño de la imagen para contener completamente el contenedor */
+    background-position: center; /* Centra la imagen */
+    padding: 50px 0;
+}
+
+
+.contenedor-bienvenida h1 {
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+.contenedor-mascota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+    background-color: #f3f4f6;
+}
+
+.contenedor-mascota-datos {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contenedor-mascota-secundario {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+.contenedor-conoce {
+    background-color: #e5e7eb;
+    padding: 50px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.contenedor-conoce h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.contenedor-conoce p{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.contenedor-conoce-mascota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor-conoce-datos {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.contenedor-mascota-datos img {
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.contenedor-mascota-datos img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% */
+}
+.contenedor-conoce-mascota .tienda{
+    font-size: 30px;
+}
+
+
+.contenedor-conoce-datos button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contenedor-contacto {
+    padding: 50px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e5e7eb;
+}
+
+.contenedor-contacto h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+.contenedor-contacto p {
+    font-size: 18px;
+    color:rgb(37, 36, 36);
+    width: 35%;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.contenedor-contacto-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formulario-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario-contenedor-secundario {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.formulario-contenedor-secundario input{
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-label {
+    width: 50%;
+    padding: 10px;
+}
+
+.formulario-label,
+textarea {
+    width: 62%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-boton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 100px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
