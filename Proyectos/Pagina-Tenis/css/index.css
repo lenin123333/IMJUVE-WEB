@@ -1,0 +1,20 @@
+columna1 {
+    background-color: #ae946d; 
+    width: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 10%; 
+    font-size: 20px;
+}
+
+.columna1 td {
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Cambia el color del texto a blanco */
+    width: 100%; /* Asegura que la celda ocupe todo el ancho */
+}
+
+.columna1 td a {
+    color: inherit; /* Mantiene el color del enlace heredado del padre */
+    text-decoration: none; /* Elimina cualquier decoración del enlace */
+}
