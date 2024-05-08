@@ -65,7 +65,7 @@ main {
 
 .contenedor-bienvenida {
     
-    background-image: url('../img/mascotas.jpg'); /* Ruta relativa a la imagen */
+    background-image: url('../img/descarga\ p.avif'); /* Ruta relativa a la imagen */
     background-size: contain; /* Ajusta el tamaño de la imagen para contener completamente el contenedor */
     background-position: center; /* Centra la imagen */
     padding: 50px 0;
